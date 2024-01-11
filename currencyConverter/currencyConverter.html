@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="currencyConverter.css">
+    <link rel="stylesheet"
+     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+     integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" 
+     crossorigin="anonymous" 
+     referrerpolicy="no-referrer" />
+    <title>currencyConverter</title>
+</head>
+<body>
+    
+    <div class="converter">
+        <div class="heading">
+            <h1>Currency Converter</h1>
+        </div>
+        
+        <form>
+            <div class="amount">
+                <p id="enter">Enter amount</p>
+                <input class="hover" id="amountenter"type="text" value="100"placeholder="Enter Amount: eg. 100">
+            </div>
+            <div class="dropdown">
+                <div class="from">
+                    <p id="ft">from</p>
+                    <div class="select-container">
+                        <img src="https://flagsapi.com/US/flat/64.png">
+                        <select id="from"class="hover">
+                            <option val="USD">USD</option>
+                        </select>
+                    </div>
+                </div>
+                <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                <div class="to">
+                    <p id="ft">to</p>
+                    <div class="select-container">
+                        <img src="https://flagsapi.com/IN/flat/64.png">
+                        <select id="to"class="hover">
+                            <option val="INR">INR</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="converted">
+                <p id="output">100$ = 8000rupees</p>
+            </div>
+            <button class="hover" id="btn">Get Exchange Rate</button>
+            </div>
+        </form>
+    </div>
+    <script src="snippets.js"></script>
+    <script src="countries.js"></script>
+    <script src="currencyConverter.js"></script>
+</body>
+</html>

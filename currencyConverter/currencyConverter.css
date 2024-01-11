@@ -1,0 +1,104 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+    background:url(coins.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    backdrop-filter:blur(18px);
+}
+.converter{
+    background-color: rgba(186, 156, 7,0.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    padding: 2.5rem;
+    border-radius: 2rem;
+    min-height:40vh;
+    width:45vh;
+}
+form{
+    margin:2rem 0 1.1em 0;
+}
+form select input,select,button{
+    width: 100%;
+    border:none;
+    outline:none;
+    border-radius:1rem;
+}
+form input{
+    border:1px solid rgb(46, 42, 42) ;
+    border-radius:0.5rem;
+    font-size:1rem;
+    padding-left:0.5rem;
+    height:37px;
+    width: 100%;
+}
+.dropdown{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+   
+}
+.select-container img{
+    height:2rem;
+    max-width:3rem;
+}
+.select-container{
+    display:flex;
+}
+select{
+   background: transparent;
+}
+#ft{
+    padding-left: 2rem;
+    font-size:1rem;
+    font-weight: 200;
+}
+select{
+    font-size: 1.2rem;
+    font-weight:300;
+}
+.converted{
+    margin:3rem 0 2rem 0;
+    font-size: 1.5rem;
+    font-weight:400;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+
+}
+.heading{
+    display:flex;
+    justify-content: space-around;
+}
+#enter{
+    font-size:1.3rem;
+    padding-left: 0.3rem;
+
+}
+#btn{
+    background-color: rgb(231, 173, 27);
+    color:black;
+    height: 3rem;
+    font-size:1.5rem;
+   
+
+
+}
+#amountenter{
+    background-color: rgba(231, 173, 27, 0.5);
+    font-weight: bold;
+}
+.hover:hover{
+    cursor: pointer;
+    border:2px;
+    border-style:solid;
+    border-color:white;
+
+}
